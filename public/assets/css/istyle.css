@@ -1,0 +1,563 @@
+
+/*ISHWAR CSS STARTS*/
+.ih-teams-squad-sec{width: 100%;display: flex;}
+.ih-bg{width: 100%;flex-flow: wrap; justify-content: center; display: flex;background: url(../images/ih-teams-squad-bg.jpg) no-repeat center center/cover;}
+.ih-bg .ih-titel{width: 100%; max-width:1600px; display: flex; justify-content: space-between; padding: 35px 0px 20px 0px;}
+.ih-bg .ih-titel .ih-t-left{width: 100%; float: left;}
+.ih-bg .ih-titel .ih-t-left h2{font-size: 50px;color: #EF4123; font-weight: 700; font-style: italic;}
+.ih-bg .ih-titel .ih-t-right{display: flex;align-items: center;}
+.ih-bg .ih-titel .ih-t-right h3{font-size:28px;color: #EF4123; font-weight: 700; margin-right:20px;}
+.ih-bg .ih-pcard-sec{width: 100%; float: left; display: flex; justify-content: center;}
+.ih-bg .ih-pcard-sec .ih-pcard-wrap{width: 100%; max-width:1600px;flex-flow: wrap; display: flex; justify-content: space-between; padding: 10px 0px;}
+.ih-bg .ih-pcard-sec ul {width: 100%; display: flex; justify-content:space-between;flex-wrap: wrap;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1{width: calc(20% - 40px);position: relative; background: linear-gradient(180deg, #FCCA06 0%, #F25C19 100%);border: 3.65202px solid #BECCE2;box-sizing: border-box;border-radius: 10.2227px;padding: 20px 0px 10px 0px;margin-bottom: 50px;}
+img.ih-p1-ab {position: absolute;right: 16px;}
+img.ih-p1-ab img {max-width:100%;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-img{width: 100%; float: left; text-align: center;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-img img{max-width:100%;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-name{background: linear-gradient(180deg, #0078BC 0%, #17479E 100%);margin-top: -7px; padding:10px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-name h2{text-align: center; font-weight:500; font-size:22px; color: #fff;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-cont{width: 100%; float: left;margin-top: 20px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-cont h2{width: 100%;text-align: center; font-size:17px; color: #fff; float: left;}
+
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-p-cont ul.ih-p-cont-in{width: 100%; padding:0px 15px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-p-cont ul.ih-p-cont-in li h3{font-weight: 400;text-align: center; font-size:16px; color: #fff; }
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-p-cont ul.ih-p-cont-in li p{text-align: center; font-size:11px; color: #fff; }
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-vp-btn{width:100%;display: flex;justify-content: center;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-vp-btn a{color:#fff; font-size:14px; text-transform:uppercase;border-bottom: 2px solid white; text-align: center;}
+.ih-view{width: 100%;display: flex; justify-content: center;}
+.ih-view a {color: #19398A;font-size: 16px;font-weight: 600;text-transform: uppercase;border-bottom: 2px solid #19398A;text-align: center; display: none;}
+/*Teams-Squad-Individual Player */
+
+.ih-ts-bansec{width: 100%; display: flex; justify-content: center; padding-top: 4%;}
+.ih-ts-bansec .ih-ts-banin{width: 100%;display: flex;height:450px;/*align-items: flex-end;*/ justify-content:center; background-color:#FCCA06;}
+.ih-ts-bansec .ih-ts-banin .ih-ts-wrap1{width: 100%; max-width:1730px;display: flex; justify-content:space-between; }
+.ih-ts-bansec .ih-ts-banin .ih-td-ban-l{width: calc(70% - 20px); display: flex; justify-content: space-between;}
+.ih-td-bimg{width: calc(40% - 20px); display: inline-flex; padding-right:20px; align-items: flex-end;}
+.ih-td-bimg img{max-width:100%;}
+
+.ih-td-bcont{width: calc(60% - 20px); align-items: flex-end;display: flex; flex-wrap: wrap; }
+.ih-td-bcont .ih-td-btop{width: 100%; float: left; display: flex; align-items: flex-end;}
+.ih-td-bcont .ih-td-btop .ih-td-n {padding-right: 15px;}
+.ih-td-bcont .ih-td-btop .ih-td-n h3{text-align: center; font-weight:700; font-size:50px; line-height:60px; text-align: left; color: #EF4123;}
+.ih-td-bcont .ih-td-btop .ih-td-n h2{text-align: center; font-weight:700; font-size:58px; line-height:60px; text-align: left; color: #EF4123;}
+.ih-td-bcont .ih-td-btop .ih-td-c{width: 100%;}
+.ih-td-bcont .ih-td-btop .ih-td-c p{display: flex;width: 40px;height: 40px;border-radius: 50px;justify-content: center;align-items: center; font-size: 25px;color: #fff;font-weight: 600;margin: 0 10px;background-color: #03458b;}
+ 
+.ih-td-bbot{width: 100%; display: flex; justify-content: space-between;padding-bottom: 30px;align-items: flex-end;}
+.bbot-l{width: calc(60% - 20px); }
+.bbot-l h2{text-align: left; font-weight:600; font-size:28px; line-height:38px; text-align: left; color: #03458b; }
+.bbot-l h2 span{color:#f00;}
+.bbot-r{width: calc(40% - 20px); }
+.bbot-r h2{text-align: left; font-weight:600;font-size: 28px;line-height: 38px; text-align: left; color: #03458b; }
+.bbot-r h2 span{color:#f00;}
+
+.ih-ts-bansec .ih-ts-banin .ih-td-ban-r{width: calc(30% - 20px); padding-bottom: 30px;align-items: flex-end; display: flex;flex-wrap: wrap;}
+.ih-td-ban-rt{width:100%; float: left; padding-bottom: 50px;}
+.ih-td-ban-rt ul{width:100%; display: flex;justify-content: space-between; align-items: center;}
+.ih-td-ban-rt ul li{width: calc(33.33% - 20px);}
+.ih-td-ban-rt ul li h2{text-align: center; font-weight:600; font-size:22px; color: #fff; }
+.ih-td-ban-rt ul li p{text-align: center; font-weight:500; font-size:28px; color: #fff; }
+.ih-td-ban-rt ul li img {height: 12vh;}
+.ih-td-ban-rb{width: 100%; float: left;padding-top: 50px;}
+.ih-td-ban-rb ul{width:30%;float: right;display: flex;justify-content: space-between;}
+.ih-td-ban-rb ul li{width: calc(33.33% - 20px); }
+.ih-td-ban-rb ul li img {max-width: 100%;}
+
+
+.ih-td-bgimg{width: 100%;flex-flow: wrap; justify-content: center; display: flex;background: url(../images/ih-td-bg.jpg) no-repeat center center/cover;}
+.ih-td-squad{width: 100%; max-width:1600px; padding-top: 50px; float: left; display: flex; justify-content: space-between;}
+.ih-td-left{width: calc(65% - 20px);margin-top: 4%;}
+.ih-td-text{width: 100%; float: left;}
+.ih-td-text p{color:#1C1C1C; font-size:20px; padding-bottom: 15px;}
+
+.ih-td-tab-sec{width:100%; float: left; }
+.ih-td-tab-titel{width:100%; float: left;}
+.ih-td-tab-titel h2{font-size: 50px;color: #EF4123;font-weight: 700;font-style: italic; padding:50px 0px 20px 0px;}
+.ih-td-tab1{width: 100%;padding:20px 0px; float: left; background: #FFFFFF;box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.16);border-radius: 18px;}
+.ih-td-tab1 h2{color: #19398A;font-size:28px; padding: 0px 40px;}
+table.ih-td-tab {border-collapse:collapse; caption-side:bottom; text-align: center;}
+table.ih-td-tab, table.ih-td-tab th, table.ih-td-tab td {border: solid 0px #000; padding: 10px;}
+table.ih-td-tab th{border-bottom: solid 1px; padding-bottom:10px;}
+tr.ih-td-bg{background-color:#EF4123;  padding:20px; color:#fff; font-weight:500;}
+td.ih-t-color{color:#19398A;font-weight:600;}
+
+.ih-td-right{width: calc(35% - 50px);}
+.ih-td-right .ih-td-right-in{width: 100%; float: left;}
+.ih-td-right-in-ti{width: 100%; float: left; margin-bottom: 20px;}
+.ih-td-right-in-ti h2{font-size: 50px;color: #EF4123;font-weight: 700;font-style: italic;}
+.ih-td-listsec{width: 100%; float: left;padding:30px 50px 0px 50px; background: #FFFFFF;box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.16);border-radius: 18.708px;}
+.ih-td-listsec ul{width: 100%; float: left; display: flex; justify-content: center; flex-wrap: wrap;margin-top: 30px}
+
+
+.ih-td-listsec ul li{width:100%;position: relative;margin-bottom: 54px;;}
+.ih-td-listsec ul li .ap-play-list-wrp{background-color: #FFE600;border-radius: 10px;height:70px;padding: 0 12px 0 10px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-img{display: inline-block;width: 25%;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-img img{max-width: 100%;float: left;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-list-name{color: #18184A;font-size:20px;font-weight: 700;text-transform: capitalize;margin-left: -30px;padding-bottom: 20px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details{margin-bottom: 16px;z-index: 5;}
+.ih-td-listsec ul li .ap-play-list-wrp{z-index: 5;}
+.ih-td-listsec ul li .ap-playing-team-logo{display: block;right: 2px;bottom: 2px;z-index: 1;opacity: 0.2;width: 28%;}
+.ih-td-listsec ul li .ap-playing-team-logo img{max-width: 100%;float: left;}
+
+
+.ih-td-vsec{width: 100%; display: flex; justify-content: center;}
+.ih-td-vsec .ih-td-vin{width: 100%;max-width: 1600px;padding-top:0px;float: left;display: flex;justify-content: space-between;}
+
+.ih-td-vsec .ih-td-vin .ap-latest-videos{padding: 25px 0 40px 0px;}
+.ih-td-vsec .ih-td-vin .ap-latest-videos.ap-latest-news{padding-right:0px;}
+.ih-td-vsec .ih-td-vin .ap-latest-videos.ap-leader-board{padding: 0 40px;}
+.ih-td-vsec .ih-td-vin .ap-common-title-wrp {padding-right: 70px;}
+.ih-td-vsec .ih-td-vin .ap-common-news {width: calc(33.33% - 15px); display: inline-block;}
+.ih-td-vsec .ih-td-vin .ap-slide-content {border: 8px solid #eaeaea;border-radius: 10px;}
+.ih-td-vsec .ih-td-vin .ap-img-box {border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.ih-td-vsec .ih-td-vin .ap-img-box img {width: 100%;float: left; border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.ih-td-vsec .ih-td-vin .ap-img-box .ap-play-video-btn {left: 50%;transform: translateX(-50%); bottom: -30px; display: block; z-index: 5;}
+.ih-td-vsec .ih-td-vin .ap-img-box .ap-play-video-btn img {max-width: 100%;width: 65px;height: 65px;}
+.ih-td-vsec .ih-td-vin .ap-img-content {padding: 15px 20px;background-color: #fff;}
+.ih-td-vsec .ih-td-vin .ap-slide-video-title {font-size: 25px;color: #1C1C1C;letter-spacing: 0.02em;font-weight: 600; line-height: 1.2;margin-top: 10px;}
+.ih-td-vsec .ih-td-vin .ap-time-video {color: #1C1C1C; font-size: 16px;font-weight: 600; right: 25px; bottom: 15px;}
+.ih-td-vsec .ih-td-vin .ap-latest-videos {background: none;}
+.ih-va-n {display: none;}
+
+
+
+.ih-ts-bansec-mob{width: 100%; float: left; display: none;}
+.ih-ts-bansec-mob .ih-ts-banin-mob{width: 100%; float: left;  background-color:#FCCA06;}
+.ih-ts-bansec-mob .ih-ts-banin-mob .ih-ts-top-mob{width: 100%;display: flex; justify-content:space-between;padding: 20px 30px;}
+.ih-ts-bansec-mob .ih-ts-banin-mob .ih-ts-top-mob .ih-ts-topl-mob{width: calc(50% - 15px); display: flex;}
+.ih-ts-tit-mob{padding-right: 20px;}
+.ih-ts-tit-mob h3{font-weight: bold; text-align: left;line-height: 30px; font-size: 35px; color: #EF4123;}
+.ih-ts-tit-mob h2{font-weight: bold; text-align: left;line-height: 70px;font-size: 65px;color: #EF4123;}
+.ih-ts-c-mob{width:100%; align-items: flex-end; display: flex;}
+.ih-ts-c-mob p{display: flex; width: 40px; height: 40px;border-radius: 50px;justify-content: center; align-items: center;  font-size: 25px; color: #fff; font-weight: 600;margin: 0 10px; background-color: #03458b;}
+.ih-ts-topr-mob{width: calc(50% - 15px); float: left; }
+.ih-ts-topr-mob ul{width: 100%; float: left; display: flex; justify-content: space-between;}
+.ih-ts-topr-mob ul li{width: calc(33.33% - 20px);}
+.ih-ts-topr-mob ul li h2{color:#fff; font-size:18px;}
+.ih-ts-topr-mob ul li p{color:#fff; font-size:20px;}
+.ih-ts-topr-mob ul li img {height: 7vh;}
+.ih-ts-bansec-mob .ih-ts-banin-mob { width: 100%;float: left; background-color: #FCCA06;padding:20px 10px 0px 10px;}
+.ih-ts-bott-l-mob{width: 100%; display: flex; justify-content: space-between;}
+.ih-ts-bott-l-mob .ih-ts-bott-i-mob{width: calc(40% - 20px); float: left;display: flex;align-items: flex-end;}
+.ih-ts-bott-l-mob .ih-ts-bott-i-mob img{width: 100%;}
+.ih-ts-bott-c-mob{width: calc(60% - 20px); float: left; flex-flow:row wrap;display: flex;align-items: flex-end;}
+.ih-ts-bott-c1-mob{width: 100%; float: left;}
+.ih-ts-bott-c1-mob h2{font-weight: 600;font-size: 24px;line-height: 51px;text-align: left; color: #03458b;}
+.ih-ts-bott-c1-mob h2 span {color: #f00;}
+.ih-ts-bott-c1-mob{width: 100%; float: left; padding-top: 20px;padding-right: 20px;}
+.ih-ts-bott-c1-mob ul{width:40%;display: flex;padding-bottom: 10px; justify-content: space-between;float: right;}
+.ih-ts-bott-c1-mob ul li{width: calc(33.33% - 20px); }
+.ih-ts-bott-c1-mob ul li img {width: 100%;}
+
+/*Teams-Squad-Individual Player */
+
+
+
+/*IPL- Points Table */
+
+
+.ih-pt-bann{width:100%; float: left;}
+.ih-pt-bann img{max-width: 100%;float: left;}
+
+.ih-teams-squad-sec{width: 100%;display: flex;}
+.ih-pt-bg{width: 100%;flex-flow: wrap; justify-content: center; display: flex;background: url(/images/ishwar/ih-pt-bg.jpg) no-repeat center center/cover;}
+.ih-pt-wm-btn{width: 100%; float: left; display: flex; justify-content:center;padding: 50px 0px;}
+.ih-pt-wm-in{width:100%; float: left; max-width:1600px;}
+.ih-pt-w{width: 100%;float: right;}
+.ih-pt-w ul{width:20%; float: right;display: flex; justify-content: space-between;background: linear-gradient(71.81deg, #18184A 25.64%, #19398A 66.22%, #18184A 114.53%);border-radius: 9.25458px;}
+.ih-pt-w ul li{width: calc(50% - 0px);align-items: flex-start;display: flex;}
+.ih-pt-w ul li a{color: #fff;font-weight: 600; padding: 8px 47px; font-size:20px;text-align: center;}
+.ih-pt-w ul li a.ih-pt-act{width:100%;font-weight: 600;text-align: center;border:solid 2px #18184A; float: left;padding:8px 20px;background: #EF4123;border-radius: 7.65034px;}
+.ih-pt-tab-bg{width: 100%; max-width:1600px; padding: 50px 30px 50px 30px; background: #FFFFFF;box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.16);border-radius: 18px;}
+
+.ih-pt-ic{width: 100%; float: left;display: flex;align-items: center;}
+.ih-pt-img{ padding-right: 20px;}
+.ih-pt-img img{max-width: 100%;}
+h2.ih-pt-cont{font-size: 18px; color:#18184A; }
+.ih-pt-fb{width:100%; float: left; display: flex; justify-content: space-between;}
+.ih-pt-g{background-color:#01A54B;width:40px; height: 25px; margin:0px 5px; color: #fff;}
+.ih-pt-r{background-color:#EF4123 ;width:40px; height: 25px; margin:0px 5px;color: #fff;}
+td.ih-pt-fb-w {width: 10%;}
+tr.ih-pt-tbl { color: #7B7B7B;}
+
+
+.ih-titel{width: 100%; max-width:1600px; display: flex; justify-content: space-between; padding: 35px 0px 20px 0px;}
+.ih-titel .ih-t-left{width: 100%; float: left;}
+.ih-titel .ih-t-left h2{font-size: 50px;color: #EF4123; font-weight: 700; font-style: italic;}
+.ih-titel .ih-t-right{display: flex;align-items: center;}
+.ih-titel .ih-t-right h3{font-size:28px;color: #EF4123; font-weight: 700; margin-right:20px;}
+.ih-pt-tbl {display: none;}
+
+/*IPL- Points Table */
+
+.ih-apg-bann{width:100%;float:left;position:relative;display:flex;justify-content:center;}
+
+.ih-apg-bann img{width:100%; float: left;}
+.ih-apg-bann-in{width:100%;float:left;position:absolute;max-width:1460px; top: 50px;}
+
+.ih-apg-tit{width: 100%;}
+.ih-apg-tit h2{font-size: 50px;color: #fff; font-weight: 700; font-style: italic;}
+
+.ih-top-btni{width:100%;float:left;padding-right:10px;}
+
+.ih-apg-apsu{width: 100%; float: left;position: absolute; padding: 20px;}
+.ih-apg-apsu .ih-top-btn{float:left;display:flex;justify-content:space-between;background:rgba(239,65,35,0.8);border-radius:10px;padding:5px 18px;align-items:center;}
+.ih-apg-apsu .ih-top-btn .ih-top-btn img{max-width: 100%; padding-right: 10px;; float: left;}
+.ih-apg-apsu .ih-top-btn h2{font-size:22px; font-weight:500; color: #fff;}
+.ih-apg-cont{width: 100%; float: left;padding-top:25%;}
+.ih-apg-cont h3{font-size:36px;text-align: center; font-weight:600; color: #fff;}
+.ih-apg-cont h2{font-size:40px;text-align:center;font-weight:700;color:#fff;}
+
+.ih-apg-cont p{font-size:18px;text-align: center; font-weight:600; color: #fff;}
+.ih-apg-cart {position: relative;}
+.ih-apg-bg{width: 100%;flex-flow: wrap; justify-content: center; display: flex;background: url(/images/ishwar/ih-apg-bg.jpg) no-repeat center center/cover;}
+.ih-apg-tit ul{width:16%;float:left;display:flex;justify-content:space-between;}
+.ih-apg-tit ul li{font-size:18px;font-weight:600;color:#fff;}
+.ih-apg-bann-in2{top:32px;}
+
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{padding:10px 10px;font-size:22px;}
+
+.ih-vmm-bg{width: 100%;flex-flow: wrap; justify-content: center; display: flex;background: url(/images/ishwar/ih-vmm-bg.jpg) no-repeat center center/cover;}
+.ih-vmm-mt{margin-bottom:25px;}
+
+.ap-banner-parent.ih-vmh-right { padding: 20px 0px 60px 0px;}
+.np-auction__LatestVid.ih-vmh-h{height:700px;overflow-y:auto;}
+
+/*ISHWAR CSS ENDS*/
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+.ih-ts-bansec .ih-ts-banin .ih-ts-wrap1 {max-width: 1460px;}
+.ih-td-squad {padding: 50px 80px 0px 80px;}
+.ih-td-vsec .ih-td-vin {padding:0px 80px 0px 80px;}
+.ih-td-vsec .ih-td-vin .ap-slide-video-title {font-size: 20px;}
+.ih-td-vsec .ih-td-vin .ap-img-box .ap-play-video-btn img {width: 48px; height: 48px;}
+.ih-td-vsec .ih-td-vin .ap-time-video {font-size: 13px;}
+.ih-ts-bansec .ih-ts-banin {height: 380px;}
+.ih-td-bcont .ih-td-btop .ih-td-n h3 { font-size: 40px;line-height: 50px;}
+.ih-td-bcont .ih-td-btop .ih-td-n h2 { font-size: 48px;line-height: 40px;}
+.bbot-l h2 {font-size: 26px; line-height: 34px;}
+.bbot-r h2 {font-size: 26px; line-height: 34px;}
+.ih-td-right-in-ti h2 {font-size: 42px;}
+.ih-td-tab-titel h2 {font-size: 42px;}
+ /*ISHWAR CSS STARTS*/
+ .ih-bg .ih-titel {padding: 35px 80px 20px 80px;}
+ .ih-bg .ih-pcard-sec .ih-pcard-wrap {padding: 10px 80px;}
+ .ih-bg .ih-pcard-sec ul li.ih-pcard1 {padding: 10px 0px 10px 0px;}
+ .ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-name {padding: 6px;}
+ .ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-cont {margin-top: 10px;}
+ .ih-bg .ih-titel .ih-t-left h2 {font-size: 42px;}
+ /*ISHWAR CSS ENDS*/
+ .ih-pt-wm-in{width:100%;float:left;max-width:1600px;padding:0px 80px;}
+ .ih-pt-tab-bg{width:100%;max-width:1440px;}
+ .ih-titel .ih-t-left h2{font-size:42px;}
+
+ .ih-apg-cont h3 {font-size: 26px;}
+ .ih-apg-cont h2 {font-size: 30px;line-height: 30px;}
+ .ih-apg-cont {padding-top: 23%;}
+ .ih-apg-cont p {font-size: 16px;}
+ .ih-apg-apsu .ih-top-btn {padding: 3px 12px;}
+ .ih-apg-bann-in {max-width: 1250px;top: 32px;}
+ .ih-apg-tit h2 {font-size: 42px;}
+
+ .ih-apg-tit ul {width: 19%;}
+ .np-auction__LatestVid.ih-vmh-h{height:590px;overflow-y:auto;}
+ .vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{padding:10px 10px;font-size:17px;}
+
+
+}
+@media only screen and (max-width: 1500px) {
+.ih-ts-bansec .ih-ts-banin .ih-ts-wrap1 {max-width: 1310px;}
+.bbot-l h2 {font-size: 20px;line-height:30px;}
+.bbot-r h2 { font-size: 20px;line-height:30px;}
+.ih-td-ban-rb ul li {width: calc(38.33% - 20px);}
+.ih-ts-bansec .ih-ts-banin {height: 340px;}
+.ih-ts-bansec {padding-top: 4%;}
+.ih-ts-bansec .ih-ts-banin .ih-ts-wrap1 {max-width: 1250px;}
+.ih-ts-bansec .ih-ts-banin {height: 320px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-list-name {font-size: 16px;margin-left: -20px; padding-bottom: 25px;}
+
+.ih-td-listsec ul li .ap-play-list-wrp {height: 55px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-list-name { padding-bottom: 17px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details {margin-bottom:10px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details img {width:100%}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details img {max-width: 70%;}
+
+ /*ISHWAR CSS STARTS*/
+ .ih-bg .ih-pcard-sec ul li.ih-pcard1 {width: calc(20% - 20px);margin-bottom: 25px;}
+ .ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-p-cont ul.ih-p-cont-in li img {height: 42px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-p-cont ul.ih-p-cont-in li p {font-size: 9px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-name {padding: 4px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-name h2 {font-size: 20px;}
+img.ih-p1-ab {height: 4vh;right: 9px;top: 7px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-cont {margin-top: 5px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-cont h2 {font-size: 14px;}
+
+/*ISHWAR CSS ENDS*/
+.ih-pt-tab-bg{width:100%;max-width:1280px;}
+.ih-pt-w ul{width:30%;}
+.ih-pt-w ul li a{color:#fff;font-weight:600;padding:8px 63px;}
+
+.ih-apg-cont {padding-top: 24%;}
+.ih-apg-bann-in {max-width: 1060px; top: 32px;}
+
+.ih-apg-tit ul {width: 22%;}
+.np-auction__LatestVid.ih-vmh-h{height:508px;}
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{padding:10px 10px;font-size:15px;}
+
+
+}
+
+
+@media only screen and (max-width: 1400px) {
+.ih-td-text p { color: #1C1C1C; font-size: 16px; padding-bottom: 15px;}
+.ih-td-left {width: calc(65% - 20px);margin-top: 7%;}
+.ih-td-tab-titel h2 {padding: 40px 0px 10px 0px;}
+.ih-td-tab1 h2 { padding: 0px 30px;}
+.ih-td-vsec .ih-td-vin .ap-slide-video-title {font-size: 16px;}
+table.ih-td-tab, table.ih-td-tab th, table.ih-td-tab td {  font-size: 12px;}
+.ih-td-listsec ul li {margin-bottom: 34px;}
+
+
+.ih-pt-tab-bg{width:100%;max-width:1200px;}
+.ih-apg-cont {padding-top:26%;}
+.ih-top-btni {max-width:38%;padding-right: 3px;}
+.ih-apg-apsu .ih-top-btn h2 {font-size: 18px;}
+.ih-apg-apsu .ih-top-btn {padding: 0px 8px;}
+.ih-apg-cont h2 {font-size: 27px;line-height: 25px;}
+
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{padding:10px 10px;font-size:13px;}
+.np-auction__LatestVid.ih-vmh-h{height:480px;}
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+.ih-ts-bansec .ih-ts-banin .ih-ts-wrap1 {max-width: 1250px;padding: 0px 50px;}
+.ih-td-bcont .ih-td-btop .ih-td-n h3 {font-size: 30px;line-height: 40px;}
+.ih-td-bcont .ih-td-btop .ih-td-n h2 {font-size: 38px;line-height: 30px;}
+.bbot-l h2 {font-size: 17px;line-height: 24px;}
+.bbot-r h2 {font-size: 17px;line-height: 24px;}
+.ih-td-ban-rt ul li p { font-size: 20px;}
+.ih-td-bcont .ih-td-btop .ih-td-c p {width: 30px;height: 30px;font-size: 19px;}
+.ih-td-ban-rt ul li h2 {font-size: 20px;}
+.ih-ts-bansec .ih-ts-banin {height: 294px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-list-name {font-size: 14px;margin-left: -10px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details img {max-width: 62%;}
+.ih-td-listsec ul li .ap-play-list-wrp {height: 48px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-list-name {padding-bottom: 14px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details {margin-bottom: 8px;}
+table.ih-td-tab, table.ih-td-tab th,table.ih-td-tab td {padding: 6px;}
+.ih-td-tab-titel h2 {padding: 40px 0px 0px 0px;}
+  /*ISHWAR CSS STARTS*/
+  .ih-bg .ih-pcard-sec ul li.ih-pcard1 {width: calc(25% - 20px);}
+  /*ISHWAR CSS ENDS*/
+
+ .ih-pt-tab-bg{max-width:1120px;}
+ .ih-pt-tab-bg {padding: 20px 30px 20px 30px;}
+ .ih-pt-wm-btn {padding: 30px 0px;}
+ .ih-pt-w ul li a {padding: 8px 33px;}
+ .ih-pt-wm-in {padding: 0px 30px;}
+ .ih-pt-tab-bg{max-width:968px;}
+
+ .ih-apg-cont h3 {font-size: 23px;}
+ .np-auction__LatestVid.ih-vmh-h{height:450px;}
+ .vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{padding:10px 10px;font-size:12px;}
+
+
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+.ih-ts-bansec .ih-ts-banin {height: 231px;}
+.ih-td-bcont .ih-td-btop .ih-td-n h3 {font-size: 25px;line-height: 30px;}
+.ih-td-bcont .ih-td-btop .ih-td-n h2 {font-size: 30px;line-height: 30px;}
+.bbot-l h2 {font-size: 15px;line-height: 21px;}
+.bbot-r h2 {font-size: 15px;line-height: 21px;}
+.ih-td-ban-rt ul li img {height: 6vh;}
+.ih-td-ban-rt {padding-bottom: 0px;padding-top: 10px;}
+.ih-td-ban-rt ul li p {font-size: 18px;}
+.ih-td-ban-rt ul li h2 {font-size: 16px;}
+.ih-td-ban-rb ul li {width: calc(44.33% - 20px);}
+.ih-td-squad {padding: 50px 40px 0px 40px;}
+.ih-td-vsec .ih-td-vin {padding: 0px 40px 0px 40px;}
+
+.ih-td-right {width: calc(40% - 50px);}
+.ih-td-left {width: calc(60% - 20px); margin-top: 7%;}
+.ih-td-tab-titel h2 {font-size: 32px;}
+.ih-td-right-in-ti h2 {font-size: 32px;}
+.ih-td-right-in-ti h2 { font-size: 32px;}
+ /*ISHWAR CSS STARTS*/
+ .ih-bg .ih-pcard-sec ul li.ih-pcard1 {width: calc(33.33% - 20px);}
+ img.ih-p1-ab {height: 2vh;}
+ .ih-bg .ih-titel .ih-t-left h2 {font-size: 32px;}
+ .ih-bg .ih-pcard-sec .ih-pcard-wrap { padding: 10px 30px;}
+ .ih-bg .ih-titel {padding: 35px 30px 20px 30px;}
+ /*ISHWAR CSS ENDS*/
+
+ .ih-apg-cont h2 {font-size: 20px;line-height: 22px;}
+ .ih-apg-cont h3 {font-size: 19px;line-height: 20px;}
+ .ih-apg-cont p {font-size: 14px;line-height: 15px;}
+ .ih-apg-bann-in {max-width: 980px;top: 13px;}
+ .ih-apg-tit h2 {font-size: 32px;}
+ .ih-apg-bann-in {max-width: 980px;top: 23px;}
+ .ih-apg-bann img { height: 12vh;}
+ .ih-apg-bann-in {max-width: 920px;top: 53px;}
+ .np-auction__LatestVid.ih-vmh-h{height:380px;}
+
+ .vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{padding:10px 10px;font-size:9px;}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.ih-td-left{width: 100%;}
+.ih-td-right {width: calc(40% - 50px);}
+.ih-td-squad {flex-wrap: wrap;}
+.ih-td-right {width: 100%;padding-top: 50px;}
+.ih-td-right-in-ti h2 {padding: 20px 0px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-img img {width: 100%;float: left;}
+.ih-td-listsec ul li .ap-play-list-wrp {height: 118px;}
+.ih-td-listsec ul li {margin-bottom: 85px;}
+.ih-td-listsec ul li .ap-playing-team-logo {width: 31%;}
+.ih-td-listsec ul li .ap-playing-team-logo img {width: 100%;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-list-name {padding-bottom: 30px;font-size: 37px;margin-left: -40px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details img {max-width: 100%;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details {margin-bottom: 38px; margin-right: 20px;}
+.ih-td-left { margin-top: 0%;}
+.ih-td-listsec ul {margin-top: 70px;}
+.ih-td-right-in-ti .ap-viewall-click {font-size: 21px;}
+.ih-td-right-in-ti .ap-common-title-wrp {padding-right: 0px;}
+.ih-td-vin .ap-viewall-click {font-size: 21px;}
+.ih-va-n { display: block;}
+.ih-td-vsec .ih-td-vin .ap-common-title-wrp {padding-right: 0px;}
+.ih-ts-bansec { display: none;}
+.ih-ts-bansec-mob{display: block;}
+ /*ISHWAR CSS STARTS*/
+ .ih-bg .ih-pcard-sec ul li.ih-pcard1 {width: calc(50.33% - 20px);}
+ /*ISHWAR CSS ENDS*/
+
+
+ .ih-pt-tbl {display:block;}
+ .ih-pt-bg{display: none;}
+ .ih-pt-mo-t{width: 100%; float: left;}
+ .ih-pt-mo-t .ih-titel .ih-t-left h2{font-size: 27px;}
+ .ih-pt-mo-t .ih-titel .ih-t-right h3 {font-size: 18px;margin-right: 10px;}
+ .ih-pt-mo-t .ih-titel .ih-t-right a {width: 100%; float: left;}
+ .ih-pt-mo-t .ih-titel .ih-t-right a img{ max-width: 100%;}
+ .ih-apg-apsu { padding: 7px;}
+ .ih-apg-apsu .ih-top-btn h2 {font-size: 13px;}
+ .ih-apg-cont h2 {font-size: 17px;line-height:16px;}
+ .ih-apg-cont h3 {font-size: 16px;line-height: 20px;}
+
+ .ih-apg-apsu .ih-top-btn h2 {font-size:15px;}
+ .ih-apg-apsu {padding:7px;}
+ .ih-apg-cont h2{font-size:18px;line-height:23px;}
+ .ih-apg-cont h3{font-size:16px;line-height:10px;}
+ .ih-apg-cont p{font-size:10px;line-height:9px;}
+
+ .ih-apg-cont {padding-top:26%;}
+.ih-apg-bann-in{max-width:710px;top:34px;}
+.ih-apg-tit ul {width: 31%;}
+.ih-apg-bann-in2 {top: 20px;}
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{font-size:12px;}
+
+.np-auction__LatestV.ih-vmh-blok{display:block;}
+.np-auction__LatestV.ih-vmh-blok{width:90%;float:right;}
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{font-size:10px;}
+
+}
+
+@media only screen and (max-width: 550px) {
+.ih-td-tab1{overflow-x:scroll;}
+.ih-ts-tit-mob h3{line-height:20px;font-size:25px;}
+.ih-ts-tit-mob h2{line-height:40px;font-size:30px;}
+.ih-ts-bansec-mob .ih-ts-banin-mob .ih-ts-top-mob{padding:1px 5px;}
+.ih-ts-tit-mob{padding-right:0px;}
+.ih-ts-c-mob p{width:25px;height:25px;font-size:12px;}
+.ih-ts-bansec-mob .ih-ts-banin-mob .ih-ts-top-mob .ih-ts-topl-mob{width:calc(35% - 5px);}
+.ih-ts-topr-mob{width:calc(65% - 10px);}
+.ih-ts-topr-mob ul li p{font-size:16px;}
+.ih-ts-bott-c1-mob h2{font-weight:600;font-size:15px;line-height:28px;}
+.ih-ts-bott-c1-mob ul{width:38%;}
+.ih-ts-bott-c1-mob ul li{width:calc(45.33% - 20px);}
+.ih-td-squad{padding:50px 20px 0px 20px;}
+.ih-td-listsec{padding:30px 20px 0px 20px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-list-name{padding-bottom:22px;font-size:17px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details img{max-width:70%;}
+.ih-td-listsec ul li .ap-play-list-wrp{height:74px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details{margin-bottom:18px;margin-right:20px;}
+.ih-td-listsec ul li{margin-bottom:35px;}
+.ih-td-vsec .ih-td-vin{padding:0px 10px 0px 10px;}
+.ih-apg-bann-in{max-width:500px;top:18px;}
+
+.ih-apg-cont h2{font-size:42px;line-height:53px;}
+.ih-apg-cont h3{font-size:36px;line-height:40px;}
+.ih-apg-cont p{font-size:20px;line-height:19px;}
+.ih-apg-apsu .ih-top-btn h2{font-size:25px;}
+.ih-apg-apsu{padding:13px;}
+.ih-apg-cont{padding-top:29%;}
+.ih-apg-tit h2 {font-size: 27px;}
+.ih-apg-tit ul li {font-size: 12px;}
+
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{font-size:12px;}
+.ih-vmm-mt{margin-bottom:0px;}
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{font-size:9px;}
+
+}
+@media only screen and (max-width: 450px) {
+/*ISHWAR CSS STARTS*/
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 {width: 100%;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-name h2 { font-size: 25px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-name {padding: 8px 0px;}
+img.ih-p1-ab {height: 4vh; right: 15px;top: 12px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 .ih-p-cont { margin-top: 12px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-p-cont ul.ih-p-cont-in li p {font-size: 14px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1.ih-pcard1 .ih-p-cont ul.ih-p-cont-in li img {height: 55px;}
+.ih-bg .ih-titel .ih-t-left h2 {font-size:25px;}
+.ih-bg .ih-pcard-sec ul li.ih-pcard1 {padding: 30px 0px 10px 0px;}
+.ih-bg .ih-pcard-sec .ih-pcard-wrap {padding: 10px 50px;}
+.ih-view a {display: block;margin-bottom: 20px;}
+/*ISHWAR CSS ENDS*/
+
+.ih-ts-bott-l-mob .ih-ts-bott-i-mob {width: calc(42% - 15px);}
+.ih-apg-cont h2{font-size:31px;line-height:45px;}
+.ih-apg-cont h3{font-size:27px;line-height:18px;}
+.ih-apg-cont p{font-size:13px;line-height:9px;}
+.ih-apg-cont {padding-top: 29%;}
+.ih-apg-apsu .ih-top-btn h2 {font-size: 21px;}
+.ih-apg-bann-in{max-width:500px;top:18px;padding:0px 20px;}
+.ih-apg-tit ul li {font-size: 10px;}
+.ih-apg-tit ul{width:35%;}
+.vn-teamOverviewWrap .vn-tabbing.ih-tabbing a{font-size:9px;}
+.ih-bg .ih-titel .ih-t-left{width:74%;float:left;}
+.ih-t-right a img{max-width:100%;}
+.ih-bg .ih-titel .ih-t-right h3{font-size:20px;}
+
+
+}
+
+
+@media only screen and (max-width:360px) {
+.ih-ts-bott-c1-mob h2 {font-size: 14px;line-height: 20px;}
+.ih-ts-bott-c1-mob {padding-right: 0px;}
+.ih-ts-bott-c-mob {width: calc(60% - 0px);}
+.ih-ts-c-mob p {width: 20px;height: 20px;font-size: 12px;}
+.ih-td-listsec ul li .ap-play-list-wrp {height: auto;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-playing-details {margin-bottom: 13px;margin-right: 0px;}
+.ih-td-listsec ul li .ap-play-list-wrp .ap-plyer-img img { width: 75%;float: left;}
+.ih-td-listsec ul {margin-top: 10px;}
+.ih-apg-apsu .ih-top-btn h2{font-size:19px;}
+.ih-apg-cont{padding-top:33%;}
+
+.ih-apg-cont h3 {font-size: 21px;line-height: 16px;}
+.ih-apg-cont h2 {font-size: 22px; line-height: 28px;}
+.ih-apg-tit h2 {font-size: 20px;}
+.ih-bg .ih-titel .ih-t-left h2 {font-size: 25px;}
+.ih-bg .ih-titel .ih-t-right h3 {font-size: 20px;}
+}

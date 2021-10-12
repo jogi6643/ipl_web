@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1550px) {
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo img{ width: 110px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo span{ font-size: 50px; margin: 5px 0 0 10px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-watchVid a{ padding: 8px 30px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ font-size: 35px;}
+
+      .vn-backArrow{ width: 25%;}
+}
+@media only screen and (max-width: 1500px) {
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticket{ width: 30%;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle{ font-size: 20px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-matchBtn{ font-size: 16px; padding: 8px 30px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ font-size: 20px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn img{ width: 15px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam h3{ font-size: 18px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle p{ font-size: 25px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle span{ font-size: 16px;}
+}
+@media only screen and (max-width: 1450px) {
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position p{ font-size: 24px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ font-size: 35px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv::after, .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position::after{top: 50%; transform: translateY(-50%);}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(2){ font-size: 50px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position{ padding: 0 35px 0 0;}
+      
+}
+@media only screen and (max-width: 1300px) {
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv{ padding: 0 30px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo{ padding: 20px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr{ padding: 30px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo span{ font-size: 40px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ font-size: 27px;}
+
+      .vn-sheduleList.vn-fullArchiveList ul li{ padding: 10px 20px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam img{ width: 80px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam h3{ font-size: 16px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle p{ font-size: 22px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle{ font-size: 18px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-matchBtn {font-size: 14px; padding: 7px 25px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ font-size: 18px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-matchTime span{margin: 0 12px 0 0;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle br{ display: none;}
+
+      .vn-blogBanTitle h2{ font-size: 30px;}
+      .vn-backArrow a svg{ width: 210px;}
+      .vn-backArrow a span{ font-size: 15px;}
+      .vn-blogShareDiv .vn-shareInner h2{ font-size: 16px;}
+      .vn-blogShareDiv .vn-shareInner .vn-socialIcons{ width: 35%;}
+      .vn-blogDetCnt .vn-blogDetCntInr p{ font-size: 20px;}
+      .vn-blogDetCnt .vn-blogDetCntInr{ width: 90%;}
+}
+@media only screen and (max-width: 1100px) {
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position { padding: 0 20px 0 0;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(2) {font-size: 40px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-watchVid a{ font-size: 14px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv { padding: 0 10px; }
+
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo{ width: 20%;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet{ width: 80%;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position p{ font-size: 20px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ font-size: 30px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr {padding: 20px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv::after, .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position::after{ height: 80px;}
+
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticnbtn{ flex-flow: row wrap; justify-content: center;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ width: 100%;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticket{ width: 25%;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-venueDet{ width: 20%;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo{ width: 55%;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle{ font-size: 14px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ font-size: 16px;}
+
+      .vn-innerPageBan{ height: 90px;}
+      .vn-innerPageBan h2{ font-size: 40px;}
+
+      .vn-blogShareDiv{ display: none;}
+      .vn-teamOverviewWrap .vn-tabbing.vn-newsTab a{ width: auto; padding: 8px 30px;}
+
+      .vn-backArrow{ width: 30%;}
+      .vn-blogBanTitle{ width: 60%;}
+      .vn-blogBanTitle h2{ font-size: 25px; text-align: left;}
+      .vn-blogBanTitle p{ font-size: 14px;}
+
+      .vn-blogDetCnt .vn-blogDetCntInr .vn-blogImg{ width: 90%;}
+      .vn-blogDetCnt .vn-blogDetCntInr .vn-blogImg iframe{ height: 350px;}
+}
+@media only screen and (max-width: 800px) {
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo {width: 35%; }
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet{ width: 65%;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr{ flex-flow: row wrap;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position, .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv, .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-watchVid{ width: 100%; float: left; padding: 0; text-align: left;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv::after, .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position::after{ background: transparent;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position{ margin: 0 0 10px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position p{ width: auto;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ width: auto; font-size: 20px; margin: 0 0 0 20px;}
+
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv{ margin: 0 0 10px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span{ width: auto; float: none; display: inline-block; vertical-align: middle; margin: 0 5px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(1){ margin: 0 5px 0 0;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(2) { font-size: 25px;}
+
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo span{ width: 100%; float: left;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr { padding: 30px; }
+
+      .vn-archiveWrap .vn-archiveInner ul li{ border-radius: 10px; overflow: hidden;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo{ border-radius: 10px; }
+
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position img{ max-width: 100px;}
+
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ width: auto;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo{ width: 100%;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam h3{ font-size: 22px;}
+
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleMob .vn-timeMatchBtn{ padding: 15px 0; border-bottom: 2px solid rgba(123, 123, 123, 0.15);}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleMob .vn-matchTitleRep{ width: 100%; float: left; margin-top: 15px; display: flex; align-items: center; justify-content: space-between;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle{ width: auto; margin: 0; font-size: 17px; text-align: left;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ font-size: 18px;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle br{ display: block;}
+      
+      .vn-sheduleFilterWrap .vn-sheduleFilterInner{ flex-flow: row wrap;}
+      .vn-sheduleFilterWrap .vn-menWoTab{ width: 100%; margin: 0 0 20px;}
+      .vn-sheduleFilterWrap .vn-menWoTab a{ width: 50%;}
+
+      a.vn_viewall{ display: block;}
+      .vn-newsPge .ap-common-news{ width: calc(100% - 15px); display: none;}
+      .vn-newsPge .ap-common-news:nth-child(-n + 4){ display: block;}
+
+      .vn-blogPageBanInner{ width: 95%;}
+      .vn-backArrow{ width: 40%;}
+      .vn-blogBanTitle{ padding: 0 0 0 20px;}
+      .vn-backArrow svg{ width: 25px;}
+}
+@media only screen and (max-width: 500px) {
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr { padding: 20px; }
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span{ margin: 0;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(2){ font-size: 20px; margin: 0 5px 0 0;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo span{ margin: 5px 0 0;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-watchVid{ margin: 5px 0 0;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo span{ font-size: 30px;}
+      .vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo img{ width: 90px;}
+
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ margin: 0 0 0 10px;}
+
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle{ font-size: 15px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ font-size: 16px;}
+
+      .vn-blogPageBanInner{ flex-flow: row wrap;}
+      .vn-backArrow{ width: 100%; justify-content: flex-start;}
+      .vn-backArrow a{ margin: 10px 0 0;}
+
+      .vn-blogBanTitle{ width: 100%;}
+      .vn-blogPageBanInner{ width: 90%;}
+      .vn-blogDetCnt .vn-blogDetCntInr .vn-blogImg{ width: 100%;}
+
+      .vn-blogBanTitle h2{ font-size: 19px;}
+      
+}
+@media only screen and (max-width: 400px) {
+      .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ width: 100%; margin: 0;}
+      .vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle{ font-size: 13px;}
+      .vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ font-size: 14px;}
+      
+}

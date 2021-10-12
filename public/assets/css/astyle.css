@@ -1,0 +1,290 @@
+.ap-team-schedule-parent{width: calc(70% - 10px);float: left;}
+.ap-team-count-down .ap-match-place{color:#FFFFFF;font-size:30px;font-weight:700;}
+.ap-team-schedule-inner{margin-top: 50px;}
+.ap-teams-sched-battle{width: calc(40% - 15px);display: inline-block;}
+.ap-teams-sched-battle .ap-team-single-logo{width: 100%;float: left;}
+.ap-teams-sched-battle .ap-team-single-logo img{max-width: 60%;}
+.ap-teams-sched-battle .ap-schedule-team-name{color: #fff;font-size: 28px;font-weight: 700;line-height: 1.3;}
+.ap-team-schedule-inner .ap-schedule-team-vs{margin-top: 50px;}
+.ap-team-schedule-inner .ap-schedule-team-vs .ap-vs-schedule-txt{color: #EF4123;font-size: 50px;}
+.ap-schedule-counter{margin-top: 40px;}
+.flipdown{width: 100%;display: inline-block;}
+.flipdown.flipdown__theme-light{font-family:'Source Sans Pro',sans-serif;display:flex;justify-content:center;}
+
+.flipdown.flipdown__theme-light .rotor, .flipdown.flipdown__theme-light .rotor-top, .flipdown.flipdown__theme-light .rotor-leaf-front{color: #EF4123;background-color: #fff;}
+.flipdown.flipdown__theme-light .rotor-bottom, .flipdown.flipdown__theme-light .rotor-leaf-rear{color: #EF4123;background-color: #fff;}
+.flipdown.flipdown__theme-light .rotor:after{display: none;}
+.flipdown .rotor{font-size: 40px;}
+.ap-schedule-refree{padding: 0 80px;margin-top: 40px;}
+.ap-schedule-refree .ap-schedule-ref-inner{font-size:22px;font-weight:700;color:#fff;}
+.ap-schedule-refree .ap-schedule-ref-inner span{font-weight: 400;}
+.ap-playing-schedule-teams{padding:40px 150px 70px;background: #E5E5E5;}
+.ap-playing-schedule-teams.playingXI{padding: 40px 80px 70px;}
+
+.ap-team-schedule-tab-wrp{width: calc(70% - 35px);float: left;text-align: left;}
+.ap-sched-tab-inner{background:#19398A;border-radius:18px;padding: 15px 15px 130px;}
+.ap-schedule-vote-wrp{width: calc(30% - 35px);float: right;text-align: left; }
+.ap-sched-vote-inner{padding:15px;background:#FFFFFF;box-shadow:0px 4px 20px rgba(102,102,102,0.16);border-radius:18.708px;}
+.ap-sched-vote-inner .ap-outer-tb-wrp{margin-bottom: 0;height: 60px;}
+.ap-sched-vote-inner .ap-outer-tb-wrp .ap-inner-tb-click{height:52px;font-size:25px;line-height:52px;}
+.ap-schedule-team-list li{width: calc(50% - 12px);margin-bottom: 20px;display: inline-block;}
+.ap-schedule-team-list li:nth-child(odd){margin-left: 0;}
+.ap-schedule-team-list li:nth-child(even){margin-right: 0;}
+.ap-schedule-team-list li:last-child{justify-self: flex-start;}
+.ap-player-wrp-sched{background:#FFFFFF;border-radius:6px;padding: 4px 15px 0 5px;}
+.ap-player-wrp-sched .ap-player-pic-schd{width: 68px;margin-right: 10px;}
+.ap-player-wrp-sched .ap-player-pic-schd img{float: left;max-width: 100%;}
+.ap-player-wrp-sched .ap-player-name-schd{color: #18184A;font-size: 24px;font-weight: 700;}
+.ap-player-wrp-sched .ap-player-designat{float: right;color: #18184A;font-weight: 600;font-size: 22px;}
+.ap-player-wrp-sched .ap-player-designat span{font-weight: 400;}
+.ap-sched-vote-inner .ap-select-player{width: 100%;float: left;margin: 15px 0;text-align: center;color: #18184A;font-size: 20px;font-weight: 700;}
+.ap-sched-vote-inner .ap-select-player.ap-grey{color: rgba(82, 82, 82, 0.5);}
+.ap-checkWrp input{padding:0;height:initial;width:initial;margin-bottom:0;display:none;cursor:pointer;}
+.ap-checkWrp label{width: 100%;float: left;position: relative;padding: 10px 10px;border: 1.5px solid rgba(190, 204, 226, 0.6);border-radius: 4px;background-color: transparent;transition: all 0.4s ease;cursor: pointer;}
+.ap-sched-vote-inner .ap-schedule-team-list li{width: calc(50% - 5px);}
+.ap-checkWrp input:checked + label{background-color: #fafafa;}
+.ap-checkWrp span{display: flex; justify-content: flex-end; align-items: center; right: 10px;top: 50%;transform: translateY(-46%);pointer-events: none;}
+.ap-checkWrp span h3{color: #18184A;font-weight: 600;font-size: 16px;display: inline-block;margin-right: 10px;}
+.ap-checkWrp span img{max-width: 100%;}
+.ap-submit-selected .ap-submit-click{color: #FFFFFF;font-weight: 700;font-size: 25px;padding: 10px 65px;border: none;background-color: #EF4123;border-radius: 9px;cursor: pointer;}
+.ap-schedule-team-list.ap-match-stream li{padding: 10px;border: 1.5px solid rgba(190, 204, 226, 0.6);border-radius: 4px;width: 100% !important; display: flex !important;justify-content: flex-start !important;}
+.ap-schedule-team-list.ap-match-stream li .ap-msg-ico{width: 27px;margin-right: 15px;display: inline-block;}
+.ap-schedule-team-list.ap-match-stream li .ap-msg-ico img{max-width: 100%;}
+.ap-schedule-team-list.ap-match-stream li span{color: #18184A;font-size: 16px;font-weight: 700;}
+.ap-comment{width: 85%;}
+.ap-read-more-wrp a{color: #329ED9;font-weight: 700;}
+.ap-sched-mob-tab{display: flex;justify-content: space-between;margin-top: -41px;z-index: 2;display: none;}
+.ap-sched-mob-tab a{background: #EF4123;border-radius: 4px 4px 0px 0px;font-size: 14px;text-transform: uppercase;color: #fff;width: calc(50% - 10px);padding: 10px 15px;text-align: center;font-weight: 700;}
+.ap-sched-mob-tab a.active{color: #EF4123;background-color: #fff;}
+.ap-match-stream-inner{padding:15px;background:#FFFFFF;box-shadow:0px 4px 20px rgb(102 102 102 / 16%);border-radius:18px;}
+.ap-schedule-team-list.ap-match-stream.ap-big li{justify-content: space-between !important;}
+.ap-schedule-team-list.ap-match-stream.ap-big li span{width: 50%;text-align: right;}
+.ap-schedule-team-list.ap-match-stream.ap-big li span.ap-comment{width: 40%;text-align: left;}
+.ap-overWise-comments{padding:10px 40px;background:linear-gradient(92.04deg,#18184A 24.18%,#19398A 50.95%,#18184A 110.32%);border-radius:5px;margin-bottom: 20px;}
+.ap-over-brief .ap-overs-content .ap-overs-ball .ap-ball-single{background-color: #fff;}
+.ap-over-brief .ap-overs-content .ap-over-num{color: #fff;margin-right: 4px;}
+.ap-team-score-brief{background:linear-gradient(180deg,#006CB7 0%,#003B7A 100%);box-shadow:0px 4px 8px rgba(0,0,0,0.25);border-radius:10px;padding: 4px 4px 0 0;}
+.ap-team-score-brief span{display: inline-block;margin: 0 4px;color: #FFFFFF;font-weight: 600;font-size: 20px;}
+.ap-team-score-brief span img{max-width: 84%;}
+.ap-playing-brief-ico{width: 50%;margin-bottom: 20px;margin-top: 20px;}
+.ap-playing-brief-ico img{max-width: 100%;display: inline-block;}
+.ap-schedule-team-list.playingXI li{margin-bottom: 8px;}
+.ap-over-brief{width: 64%;}
+.ap-points-table-brief{padding: 0px;}
+.ap-sched-vote-inner.ap-no-pad{padding: 0;overflow: hidden;}
+.ap-sched-vote-inner.ap-no-pad .ap-tab-content{padding: 0 70px;}
+.ap-sched-vote-inner.ap-no-pad .ap-tab-content .ap-stat-innertable th{color: #7B7B7B;text-align: center;}
+
+.ap-vd-pop-container{position:fixed;width:100%;height:100vh;z-index:2000;top:0;left:0;overflow-y:auto;background:rgba(27,57,108,.8);}
+.ap-vd-pop-inner{transition:opacity .3s cubic-bezier(0,0,.18,.71),transform .3s,-webkit-transform .3s;position:relative;margin:0 auto;height:100%;padding: 0 0 30px 90px;}
+.ap-video-list-wrp{width: calc(70% - 0px);float: left;padding-top: 70px; height:100vh;overflow-y: auto;}
+.ap-video-scroll-list{width: calc(30% - 0px);float: right;background: #18184A;padding: 60px 0px 25px 35px;height: 100vh;overflow-y: auto;}
+.ap-vd-iframe iframe{width:100%;height:600px;}
+.ap-vd-iframe .ap-view-cnt{color: #FFFFFF;font-size: 16px;vertical-align: middle;}
+.ap-vd-iframe .ap-view-cnt span{display: inline-block;vertical-align: middle;margin-right: 8px;}
+.ap-video-desc p{width: 100%;float: left;color: #FFFFFF;font-size: 22px;font-weight: 600;}
+.ap-video-desc span{color: #fff;float: left;font-size: 16px;font-weight: 400;}
+
+.ap-wickt-slider-outer{margin-top: 50px;}
+.ap-wickt-slider-outer .ap-common-title-wrp{padding-right: 0;}
+.ap-wickt-slider{padding: 0 50px 40px;margin-top: 20px;}
+.ap-wickt-slider .ap-common-slide{margin: 0 20px;}
+.ap-wickt-slider.slick-slider button.slick-prev{background: url(../images/amit-assets/ap-phto-pop-left.png) no-repeat center;left: 12px;width: 18px;height: 36px;}
+.ap-wickt-slider.slick-slider button.slick-next{background: url(../images/amit-assets/ap-phto-pop-right.png) no-repeat center;right: 12px;width: 18px;height: 36px;}
+
+.ap-wickt-slider .slick-dots{bottom: -20px;left: 0;}
+.ap-wickt-slider .slick-dots li button{width:100px;border-radius:0;height:10px;background: #fff;transition: all 0.4s ease;clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0 100%);}
+.ap-wickt-slider .slick-dots li.slick-active button{background:#EF4123;border:1px solid rgba(255,255,255,0.1);height:11px;}
+
+.ap-next-vd-click{padding:4px 45px;text-align:center;color:#fff;text-transform:uppercase;font-size:20px;font-weight:700;font-style:italic;background: url(../images/amit-assets/ap-next-vd-bg.png) no-repeat center center/cover;display: inline-block;letter-spacing: 0.8px;margin-bottom: 15px;}
+.ap-vd-scroll-div .ap-slide-content{margin: 20px 0;border-color: #D7DBDF;}
+
+.ap-vd-pop-inner .mCSB_dragger_bar{background:#329ED9 !important;width:6px!important;height:10rem !important;}
+.ap-vd-pop-inner .mCSB_draggerRail{opacity: 0;}
+.ap-vd-pop-inner .mCSB_inside>.mCSB_container{margin-right:42px;}
+.ap-vd-pop-inner .mCSB_scrollTools{right: -4px;}
+.ap-vd-pop-close{right: 15px;top: 15px;display: block;}
+
+.ap-fixed-match-brief{padding: 16px 50px;background: linear-gradient(92.04deg, #18184A 24.18%, #19398A 50.95%, #18184A 110.32%);position: fixed;bottom: 0;left: 0;z-index: 999;margin-top: 80px;}
+.ap-fixed-match-slider .ap-match-slide{padding: 0 60px;border-right: 1px solid rgba(123, 123, 123, 0.5);;}
+.ap-match-slide-inner .ap-date-rcp{display: inline-block;font-weight: 400; text-align: center;color: #fff;font-size: 30px;line-height: 0.8;}
+.ap-match-slide-inner .ap-date-rcp span{font-size: 16px;}
+.ap-match-recap-wrp{background:#FFFFFF;border-radius:10px;width: 88%;}
+.ap-match-recap-wrp .ap-team-name-rcap.ap-MI-BG{background:linear-gradient(92.04deg,#18184A 24.18%,#19398A 50.95%,#18184A 110.32%);box-shadow:0px 4px 8px rgba(0,0,0,0.25);border-radius:8px;}
+.ap-team-name-rcap{padding: 0 15px 0 10px;width: 45%;}
+.ap-match-recap-wrp span{display: inline-block;font-size: 22px;color: #fff;}
+.ap-match-recap-wrp span.ap-img-rcap{width: 50px;height: 50px;}
+.ap-match-recap-wrp span img{max-width: 100%;}
+.ap-match-recap-wrp span.ap-left-space{margin-left: 15px;}
+.ap-match-recap-wrp span.ap-right-space{margin-right: 15px;}
+.ap-score-rcap{display: inline-block;text-align: center;margin: 0 10px;width: 58%;}
+.ap-score-rcap .ap-runs-txt{display: inline-block;color: #1C1C1C;font-size: 18px;font-weight: 600;}
+.ap-score-rcap .ap-vs-rcp-txt{display: inline-block; font-size: 12px;color: #EF4123;margin: 0 10px;}
+.ap-team-name-rcap.ap-RCB-BG{background:#2B2A29;box-shadow:0px 4px 8px rgba(0,0,0,0.25);border-radius:8px;}
+.ap-team-name-rcap.ap-CSK-BG{background: #FFE600;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);border-radius:8px;}
+.ap-team-name-rcap.ap-CSK-BG span{color: #000;}
+.ap-team-name-rcap.ap-KKR-BG{background:#3A225D;box-shadow:0px 4px 8px rgba(0,0,0,0.25);border-radius:8px;}
+.ap-team-name-rcap.ap-RR-BG{background: #254AA5;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);border-radius:8px;}
+footer{margin-bottom: 60px;}
+
+@media screen and (max-width:1600px) {
+    .ap-schedule-refree{padding:0 35px;margin-top:26px;}
+    .ap-team-count-down .ap-match-place{font-size:25px;}
+    .ap-teams-sched-battle .ap-schedule-team-name{font-size:22px;}
+    .ap-schedule-refree .ap-schedule-ref-inner{font-size:18px;}
+    .ap-teams-sched-battle .ap-team-single-logo img{max-width:58%;}
+    .flipdown .rotor{font-size: 30px;}
+    .ap-playing-schedule-teams{padding:40px 88px 70px;}
+    .ap-submit-selected .ap-submit-click {font-size: 18px; padding: 8px 56px;}
+    .ap-sched-vote-inner .ap-select-player{font-size:16px;}
+    .ap-fixed-match-brief {padding: 16px 0px;}
+    .ap-fixed-match-slider .ap-match-slide{padding:0 30px;}
+    .ap-match-slide-inner .ap-date-rcp span{font-size:16px;}
+    .ap-match-slide-inner .ap-date-rcp{font-size:25px;}
+    .ap-match-recap-wrp span{display:inline-block;font-size:18px;}
+}
+
+@media screen and (max-width:1536px) {
+    .ap-player-wrp-sched .ap-player-name-schd{font-size:20px;}
+    .ap-sched-vote-inner.ap-no-pad .ap-tab-content{padding:0 32px;}
+}
+@media screen and (max-width:1500px) {
+    .ap-score-rcap .ap-runs-txt{font-size:15px;} 
+    .ap-score-rcap .ap-vs-rcp-txt{font-size:12px;margin:0 6px;}
+    .ap-team-name-rcap{padding:0 10px 0 10px}
+    footer{margin-bottom: 100px;}
+}
+@media screen and (max-width:1400px) {
+    .ap-team-schedule-inner{margin-top:24px;}
+    .ap-schedule-counter{margin-top:18px;}
+    .ap-team-schedule-inner .ap-schedule-team-vs .ap-vs-schedule-txt{font-size:35px;}
+    .ap-team-schedule-inner .ap-schedule-team-vs{margin-top:35px;}
+    .ap-playing-schedule-teams{padding:40px 55px 70px;}
+    .ap-team-schedule-tab-wrp{width:calc(70% - 10px);}
+    .ap-checkWrp span{width: 25%;}
+    .ap-checkWrp span img{max-width: 40%;}
+    .ap-schedule-vote-wrp{width:calc(30% - 25px);}
+    .ap-player-wrp-sched .ap-player-designat{font-size:16px;}
+    .ap-overWise-comments{padding:10px 15px;}
+    .ap-team-score-brief span{margin:0 3px;font-size:15px;}
+    .ap-over-brief{width:72%;}
+    .ap-checkWrp span h3{font-size:14px;}
+    .ap-vd-pop-inner{padding:0 0 30px 60px;}
+    .ap-vd-iframe iframe{width:100%;height:446px;}
+    .ap-vd-pop-close{width: 20px;}
+    .ap-vd-pop-close img{max-width: 100%;}
+    .ap-match-slide-inner .ap-date-rcp{font-size:20px;}
+    .ap-match-slide-inner .ap-date-rcp span{font-size:14px;}
+    .ap-match-recap-wrp span{font-size:16px;}
+    .ap-match-recap-wrp span.ap-left-space{margin-left:8px;}
+    .ap-match-recap-wrp span.ap-right-space{margin-right:5px;}
+    .ap-score-rcap{margin:0 5px;}
+    .ap-fixed-match-brief{padding:8px 0px;}
+    footer{margin-bottom:58px;}
+
+}
+@media screen and (max-width:1300px) {
+    .ap-stat-table{width:calc(30% - 10px);}
+    .ap-playing-schedule-teams.playingXI{padding:40px 35px 70px;}
+    .ap-vd-pop-inner{padding:0 0 30px 30px;}
+    .ap-score-rcap .ap-runs-txt{font-size:13px;}
+}
+
+@media screen and (max-width:1150px) {
+    .ap-player-wrp-sched .ap-player-pic-schd img{max-width:80%;}
+    .ap-schedule-team-list li {width: calc(50% - 5px);margin-bottom: 13px;}
+    .ap-player-wrp-sched .ap-player-name-schd{font-size:16px;}
+    .ap-player-wrp-sched .ap-player-pic-schd{width:50px;}
+    .ap-player-wrp-sched .ap-player-designat{font-size:14px;}
+    .ap-sched-tab-inner{padding:15px 4px 130px;}
+    .ap-playing-schedule-teams{padding:40px 14px 70px;}
+    .ap-video-scroll-list{padding:60px 0px 25px 25px;}
+    .ap-video-desc p{font-size:18px;}
+    .ap-video-desc span{font-size:14px;}
+    .ap-wickt-slider{padding:0 0px 40px;}
+    .ap-wickt-slider.slick-slider button.slick-prev{left:-10px}
+    .ap-wickt-slider.slick-slider button.slick-right{right:-10px}
+    .ap-wickt-slider .ap-common-slide{margin:0 10px;}
+}
+@media screen and (max-width:950px) {
+    .ap-team-schedule-parent{width:calc(70% - 10px)}
+    .ap-team-count-down .ap-match-place{font-size:18px;}
+    .ap-teams-sched-battle .ap-schedule-team-name{font-size:18px;}
+    .ap-teams-sched-battle .ap-team-single-logo img{max-width:50%;}
+    .ap-over-brief{width:94%;}
+    .ap-team-score-brief span{font-size:12px;}
+    .ap-overs-content .ap-over-num{font-size:10px;}
+    .ap-sched-vote-inner.ap-no-pad .ap-tab-content{padding:0 16px;}
+    .ap-playing-schedule-teams.playingXI{padding:40px 12px 70px;}
+    .ap-schedule-vote-wrp{width:calc(40% - 6px);}
+    .ap-vd-pop-inner{padding:0 0 30px 15px;}
+
+}
+@media screen and (max-width:900px) {
+   
+
+}
+@media screen and (max-width:820px) {
+    .ap-team-schedule-parent{margin-bottom:36px;width: 100%;}
+    .ap-schedule-refree{padding:0 20px;width: 100%;}
+    .ap-schedule-refree .ap-schedule-ref-inner{width: 100%;float: left;text-align: center;}
+    .ap-teams-sched-battle .ap-schedule-team-name{font-size:16px;}
+    .ap-slide-video-title{font-size:14px;}
+    .ap-vd-wrp{justify-content: center !important;}
+    .ap-video-list-wrp{width:100%;height: auto;overflow-y: hidden;}
+    .ap-video-scroll-list{width: 60%;height: auto;overflow-y: hidden;}
+    .ap-vd-pop-inner{padding: 0 15px;}
+    .ap-video-scroll-list{padding:60px 25px 25px 25px;}
+}
+@media screen and (max-width:800px) {
+    .ap-team-schedule-tab-wrp{width:100%;margin-bottom:15px;margin-top: 40px;}
+    .ap-schedule-vote-wrp{width:100%;}
+    .ap-playing-schedule-teams{flex-direction: column;padding-top: 0;}
+    .ap-sched-mob-tab{display: flex;}
+    .ap-playing-schedule-teams .ap-common-head{display: none;}
+    .ap-banner-parent.ap-schedule-parent{padding-bottom: 60px;}
+    .ap-team-tab-common{display: none;}
+    .ap-team-tab-common.active{display: block;}
+}
+@media screen and (max-width:700px) {
+    .ap-team-count-down .ap-match-place{font-size:18px;}
+    .ap-schedule-team-list.ap-match-stream.ap-big li span.ap-comment{width:95%;}
+    .ap-schedule-team-list.ap-match-stream.ap-big li span{width:18%;}
+    .ap-vd-iframe iframe{height:335px;}
+    .ap-video-scroll-list{width: 100%;}
+    /* .ap-fixed-match-brief{display: none;} */
+    .ap-fixed-match-slider .ap-match-slide{padding:0px 5px;border-right: none;}
+}
+@media screen and (max-width:550px) {
+    .ap-schedule-team-list li {width:100%;}
+    .ap-player-wrp-sched .ap-player-name-schd{font-size:18px;}
+    .ap-player-wrp-sched .ap-player-pic-schd{margin: 0;}
+    .ap-player-wrp-sched .ap-player-pic-schd img{max-width:100%;}
+    .ap-sched-vote-inner .ap-schedule-team-list li{width:100%;}
+    .ap-outer-tb-wrp{border-radius: 0 !important;background: transparent !important;}
+    .ap-inner-tb-click{height: 50px !important;border-radius: 0 !important;width: 50% !important;display: block !important;float: left !important;background: linear-gradient(71.81deg, #18184A 25.64%, #19398A 66.22%, #18184A 114.53%);line-height: 50px !important;font-size: 18px !important;}
+    .ap-sched-tab-inner{background-color: transparent;}
+    .ap-inner-tb-click.ap-active-team{background: #EF4123;box-shadow: 0px 3.29827px 6.59655px rgba(0, 0, 0, 0.25);}
+    .ap-playing-schedule-teams{background-color: #fff;}
+    .ap-player-wrp-sched{border: 1px solid #E0E0E0;}
+    .ap-sched-vote-inner{box-shadow: none;}
+    .ap-sched-tab-inner{padding:15px 4px 0px;}
+    .ap-sched-vote-inner{padding:15px 0;}
+    .ap-playing-schedule-teams.playingXI{padding:40px 10px 70px;}
+    .ap-over-brief .ap-overs-content .ap-overs-ball .ap-ball-single{width: 22px;height: 22px;    font-size: 9px;}
+    .ap-overs-content .ap-over-num{width:20%;}
+    .ap-overWise-comments{flex-flow: row wrap; justify-content: center !important;}
+    .ap-over-brief{width:100%;margin-bottom: 20px;}
+}
+@media screen and (max-width:450px) {
+    .ap-player-wrp-sched .ap-player-pic-schd{width:75px;}
+    .ap-team-schedule-tab-wrp {margin-top: 10px;}
+    .ap-overWise-comments{padding:10px 8px;}
+    .ap-over-brief .ap-overs-content .ap-over-num{font-size: 10px;}
+    .ap-sched-vote-inner.ap-no-pad .ap-tab-content{padding:0 10px;}
+    .ap-sched-vote-inner.ap-no-pad{box-shadow:0px 4px 20px rgb(102 102 102 / 16%) !important;}
+    .ap-wickt-slider .slick-dots{bottom:0px;}
+    .ap-wickt-slider .slick-dots li button{height: 8px;}
+    .ap-wickt-slider .slick-dots li.slick-active button{height: 6px;}
+    .ap-video-scroll-list{padding:26px 15px 25px 15px;margin-top:40px;}
+}

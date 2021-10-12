@@ -1,0 +1,81 @@
+.vn-archiveWrap{ display: flex; align-items: center; justify-content: center;}
+.vn-archiveWrap .vn-archiveInner{ width: 95%; display: flex; align-items: flex-end; justify-content: space-between;}
+.vn-archiveWrap .vn-archiveInner ul{width: 100%; float: left;}
+.vn-archiveWrap .vn-archiveInner ul li{width: 100%; float: left; box-shadow: 0px 5px 10px rgba(0, 57, 111, 0.15); border-radius: 0; background: #FFFFFF; padding: 0; margin: 20px 0; border-left: 2px solid rgba(123, 123, 123, 0.15); display: table;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo{background: linear-gradient(71.81deg, #18184A 25.64%, #19398A 66.22%, #18184A 114.53%); padding: 30px; display: table-cell; vertical-align: middle; text-align: center; width: 25%;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo img{ max-width: 100%; display: inline-block; vertical-align: middle;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-IplLogo span{ color: #fff; font-weight: 700; font-style: italic; font-size: 60px; text-transform: uppercase; display: inline-block; vertical-align: middle; line-height: normal; margin: 5px 0 0 20px;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet{display: table-cell; vertical-align: middle; width: 75%;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr{ display: flex; align-items: center; justify-content: space-between; padding: 40px;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position{ width: 25%; position: relative;  padding: 0 50px 0 0; }
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position img{ max-width: 100%;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position p{ width: 100%; float: left; font-weight: 700; color: #7b7b7b; font-size: 30px; text-transform: uppercase;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position span{ width: 100%; float: left; font-weight: 700; font-style: italic; color: #1C1C1C; font-size: 40px; text-transform: uppercase;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv{ position: relative; padding: 0 50px; width: 25%;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv::after, .vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-position::after{ content: ""; position: absolute; right: 0; width: 5px; height: 120px; background: url(../images/vishal/divider.png) no-repeat center center; background-size: auto 100%;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span{ width: 100%; float: left;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(1){ color: #7b7b7b; font-size: 16px; font-weight: 700;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(2){ color: #19398A; font-size: 60px; font-weight: 700; font-style: italic; line-height: normal;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-scoreDiv span:nth-child(3){ color: #19398A; font-size: 16px; font-weight: 700;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-watchVid{ width: 25%;}
+.vn-archiveWrap .vn-archiveInner ul li .vn-archiveDet .vn-archiveDetInr .vn-watchVid a{ background: #EF4123; color: #FFFFFF; border-radius: 10px; font-size: 18px; font-weight: 700; padding: 8px 50px; display: inline-block;}
+
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle{ text-align: left;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam.vn-team-2 .vn-teamTitle{ text-align: right;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle h3{ margin: 0;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle p{ margin: 0; font-size: 30px; color: #19398A; font-weight: 700;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle span{ margin: 0; font-size: 18px; color: #7c7c7c; font-weight: 700;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam .vn-teamTitle{ margin: 0 0 0 20px;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam.vn-team-2 .vn-teamTitle{ margin: 0 20px 0 0;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam h3{ font-size: 20px; line-height: 1.2;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-sheduleLogo .vn-shedTeam h3{ font-size: 20px; line-height: 1.2;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-ticketTitle{ width: 100%; text-align: center; float: left; margin: 0 0 15px; font-size: 24px; color: #19398A; font-weight: 700; text-transform: uppercase;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-ticnbtn{ width: 100%; float: left; display: flex; align-items: center; justify-content: space-between;}
+.vn-sheduleList.vn-fullArchiveList ul li a.vn-ticBtn{ width: auto; float: none; margin: 0;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-ticket{ padding: 0 20px;}
+.vn-sheduleList.vn-fullArchiveList ul li .vn-date{ font-style: italic;}
+
+.vn-sheduleFilterWrap .vn-menWoTab{ display: flex; align-items: center; justify-content: space-between;}
+.vn-sheduleFilterWrap .vn-menWoTab a{ display: inline-block; vertical-align: middle; padding: 10px 50px; color: #fff; font-weight: 700; text-transform: uppercase; background: #EF4123;}
+.vn-sheduleFilterWrap .vn-menWoTab a.active{ background: #19398A;}
+
+.vn-innerPageBan{ background:#19398A url(../images/vishal/inner_ban_bg.png) no-repeat left center; background-size: contain; height: 150px; display: flex; align-items: center; justify-content: center;}
+.vn-innerPageBan h2{ width: 80%; display: inline-block; text-align: left; color: #fff; font-size: 60px; font-weight: 700; font-style: italic;}
+
+.vn-sheduleBg{ background: url(../images/vishal/sheduleBg.png) no-repeat center bottom; background-size: 100% auto;}
+.vn-latest-news.vn-sheduleBg .ap-latest-videos{ background: transparent;}
+
+a.vn_viewall{ width: 100%; float: left; font-size: 20px; font-weight: 600; text-decoration: underline; color: #19398A; margin: 20px 0 0; display: none;}
+
+.vn-blogPageBan{background:#19398A url(../images/vishal/blogInrBg.png) no-repeat left center; background-size: cover; height: 150px; display: flex; align-items: center; justify-content: center;}
+.vn-blogPageBanInner{display: flex; align-items: flex-start; justify-content: space-between; width: 90%;}
+.vn-backArrow{ display: flex; align-items: center; justify-content: space-between; width: 20%;}
+.vn-backArrow a{ position: relative;}
+.vn-backArrow a span{ font-size: 17px; font-weight: 600; text-transform: uppercase; color: #fff; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -82%);}
+
+.vn-blogBanTitle{ width: 65%; text-align-last: left;}
+.vn-blogBanTitle h2{ width: 100%; float: left; color: #FFFFFF; font-size: 50px; font-weight: 700; font-style: italic; text-transform: uppercase; line-height: normal; margin: -10px 0 0;}
+.vn-blogBanTitle p{ width: 100%; float: left; color: #FFFFFF; font-weight: 700; font-size: 16px;}
+.vn-blogBanTitle p span:nth-child(2){ margin: 0 0 0 25px;}
+
+
+.vn-sheduleWrap.vn-blogInrWrap{ padding: 0 0 30px;}
+.vn-teamOverviewWrap .vn-tabbing.vn-newsTab a{ width: 23%;}
+.vn-blogShareDiv{ display: flex; align-items: center; justify-content: center; background: #fff; padding: 15px 0;}
+.vn-blogShareDiv .vn-shareInner{ display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 0 50px;}
+.vn-blogShareDiv .vn-shareInner h2{ font-weight: 600; font-size: 20px; color: #19398A;}
+.vn-blogShareDiv .vn-shareInner h2 span{ color: #1C1C1C; margin: 0 0 0 25px;}
+.vn-blogShareDiv .vn-shareInner .vn-socialIcons{ width: 30%; display: flex; align-items: center; justify-content: space-between;}
+.vn-blogShareDiv .vn-shareInner .vn-socialIcons a{ margin: 0 10px; display: inline-block;}
+.vn-blogShareDiv .vn-shareInner .vn-socialIcons a img{ max-width: 100%;}
+
+.vn-blogDetCnt{ text-align: center;}
+.vn-blogDetCnt .vn-blogDetCntInr{ width: 70%; display: inline-block; padding: 50px 0;}
+.vn-blogDetCnt .vn-blogDetCntInr .vn-blogImg{ width: 70%; display: inline-block; margin: 15px 0;}
+.vn-blogDetCnt .vn-blogDetCntInr .vn-blogImg img{ max-width: 100%;}
+.vn-blogDetCnt .vn-blogDetCntInr .vn-blogImg iframe{ width: 100%; height: 500px;}
+.vn-blogDetCnt .vn-blogDetCntInr .vn-blogImg span{ width: 100%; float: left; color: #19398A; font-size: 20px; font-weight: 600; margin: 5px 0 0; text-align: left;}
+.vn-blogDetCnt .vn-blogDetCntInr p{ width: 100%; float: left; color: #19398A; font-weight: 400; font-size: 24px; margin: 15px 0; text-align: left;}
+
+.vn-latest-news2 .ap-latest-videos{ background: transparent;}
+.vn-latest-news2 .ap-common-news { margin: 15px 0;}
